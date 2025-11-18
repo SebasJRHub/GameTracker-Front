@@ -13,8 +13,8 @@ export default function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/home" element={<Home />} /> 
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Home />} /> 
+        <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
 
         <Route path="/resenas/:juegoId" element={<ProtectedRoute><Reseñas /></ProtectedRoute>} />
